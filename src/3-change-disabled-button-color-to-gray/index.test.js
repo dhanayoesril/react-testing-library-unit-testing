@@ -1,5 +1,5 @@
 import { render, screen, fireEvent } from '@testing-library/react';
-import App from './App';
+import App from './index';
 
 test('button has correct initial color', () => {
   render(<App />);

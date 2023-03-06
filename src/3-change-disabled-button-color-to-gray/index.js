@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-function App() {
+function ChangeDisabledButtonToGray() {
   const [buttonColor, setButtonColor] = useState("red");
   const [disabled, setDisabled] = useState(false);
 
@@ -27,4 +27,4 @@ function App() {
   );
 }
 
-export default App;
+export default ChangeDisabledButtonToGray;
