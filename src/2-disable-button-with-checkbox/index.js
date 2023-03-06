@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const App = () => {
+const DisableButtonWithCheckbox = () => {
   const [ buttonColor, setButtonColor ] = useState('red');
   const [ isDisabled, setIsDisabled ] = useState(false);
   const newButtonColor = buttonColor === 'red' ? 'blue' : 'red';
@@ -23,4 +23,4 @@ const App = () => {
   );
 }
 
-export default App;
+export default DisableButtonWithCheckbox;

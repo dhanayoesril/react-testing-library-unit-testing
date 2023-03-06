@@ -1,5 +1,5 @@
 import { fireEvent, render, screen } from "@testing-library/react";
-import App from "./App";
+import App from "./index";
 
 test('initial state button is active and checkbox is unchecked', () => {
   render(<App/>)
